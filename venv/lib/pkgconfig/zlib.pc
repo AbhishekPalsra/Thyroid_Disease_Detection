@@ -1,0 +1,13 @@
+prefix=/Users/abhishek/Desktop/PYTHON/Deployment/THYROID _DISEASE_ DETECTION /venv
+exec_prefix=/Users/abhishek/Desktop/PYTHON/Deployment/THYROID _DISEASE_ DETECTION /venv
+libdir=/Users/abhishek/Desktop/PYTHON/Deployment/THYROID _DISEASE_ DETECTION /venv/lib
+sharedlibdir=/Users/abhishek/Desktop/PYTHON/Deployment/THYROID _DISEASE_ DETECTION /venv/lib
+includedir=/Users/abhishek/Desktop/PYTHON/Deployment/THYROID _DISEASE_ DETECTION /venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
